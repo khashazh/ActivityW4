@@ -1,0 +1,82 @@
+input:focus{
+	background-color: #f0f0f0 ;
+}
+
+
+body {
+  background-image: url("cal.webp");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Container styling */
+.form-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: black;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', sans-serif;
+  color: white;
+}
+
+
+/* Heading styling */
+.form-container h2 {
+  text-align: center;
+  font-family: 'Times New Roman', sans-serif;
+  color: white;
+  
+}
+
+/* Label and input field styling */
+.form-container label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Times New Roman', sans-serif;
+  color: white;
+} 
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Times New Roman', sans-serif;
+  box-sizing: border-box;
+
+
+}
+
+.form-container button {
+  margin-top: 10px;
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.result-box {
+  margin-top: 15px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+

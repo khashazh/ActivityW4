@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="Task1.css">
+	 <title>Virtual Calculator</title>
+ 
+</head>
+<body>
+<div class="form-container">
+   <h2>Virtual Calculator</h2>
+   <form>
+	<label for="inputA">Input A:</label>
+    <input type="text" id="inputA" name="inputA" placeholder="Enter the first number"><br><br>
+	<label for="inputB">Input B:</label>
+    <input type="text" id="inputB" name="inputB" placeholder="Enter the second number"><br><br>
+	
+    <div class="button">
+        <button type="button" onclick="add()">ADD</button><br><br>
+        <button type="button" onclick="subtract()">SUBTRACT</button><br><br>
+        <button type="button" onclick="multiply()">MULTIPLY</button><br><br>
+        <button type="button" onclick="divide()">DIVIDE</button><br><br>
+    </div>
+    
+    <div class="result-box">
+    <p id="result">Result:</p>
+	</div>
+
+   </form>
+</div>
+   <!-- Link to external JavaScript file -->
+  <script src="Task1.js"></script>
+</body>
+</html>
