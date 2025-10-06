@@ -1,0 +1,39 @@
+input:focus{
+	background-color: #f0f0f0 ;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Times New Roman', sans-serif;
+  text-align: center;
+}
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  margin:200px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+    color: #333;
+	text-align: center;
+}
+
+/* Capital text styling */
+.capital {
+    color: #000080;  /* Blue color */
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+	
+}
